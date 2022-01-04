@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
 <html>
+    <link rel="stylesheet" href="style.css"/>
+    <div w3-include-html="donatePage.html"></div>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +12,18 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-      <h3>The Main Page</h3>
+      <h3 id="title">The Main Page</h3>
+      <button id="donateButton" onclick="goToDonatePage()">Donate</button>
+      <!-- <script>
+        function myFunction() {
+          document.getElementById("donateButton").style.color = "red";
+        }
+        </script> -->
+        <script>
+        function goToDonatePage()
+            {
+                window.location.href = 'donatePage.html';
+            }</script>
       <figure id="img-div">
         <img src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_521047180_186951.jpg" 
         alt="Picture about care" id="image" height=30% width=30%>
