@@ -18,16 +18,48 @@ button{
     padding: 10px 20px 8px;
     width: 170px;
 }
-#body{
+#website-name{
+    display: flex;
+    width:fit-content;
+
+}
+.body{
     display: inline-block;
     background-color: aqua;
 }
+#intro{
+    padding: 10px;
+    display: block;
+    border: 1px solid #525252;
+    margin:  auto; 
+    background: rgb(243, 220, 190);
+    width: 70%;
+}
+
+#more-info{
+    padding: 10px;
+    display: block;
+    border: 1px solid #525252;
+    margin:  auto; 
+    margin-top: 10px;
+    background: rgb(243, 220, 190);
+    width: 70%;
+}
+
+#image{
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+    padding-bottom: 0px;
+
+    
+}
 .overview {
-    background: antiquewhite;
+    background: rgb(161, 245, 92);
     border: 1px solid #525252;
     margin: 20px auto 10px; 
     padding: 15px 30px;
-    width: 50%;
+    width: 30%;
 }
 div {
     display: block;

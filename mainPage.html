@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="">
 </head>
 
-<body id="body">
+<body class="body">
     <div class="body-inner">
-        <h1 id="website-name">The Website Name</h1>
+       <center><h1 id="website-name">TTP Red Cross</h1></center> 
         <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
             <div class="container">
-                <a class="navbar-brand" href="#">GiveWell</a>
+                <a class="navbar-brand" href="mainPage.html">TTP Red Cross</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -29,13 +29,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link active" aria-current="page" href="mainPage.html">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">DONATE</a>
+                            <a class="nav-link" href="donatePage.html">DONATE</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -54,22 +54,27 @@
             </div>
         </nav>
         <div id="main">
-            <h3 id="title">The Main Page</h3>
+            <center>
+            <h3 id="title">Help Students In Need</h3>
             <button id="donateButton" onclick="goToDonatePage()">Donate</button>
-
+        </center>
             <script>
                 function goToDonatePage() {
                     window.location.href = 'donatePage.html';
                 }</script>
             <figure id="img-div">
-                <img src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_521047180_186951.jpg"
-                    alt="Picture about care" id="image" height=30% width=30%>
-                <figcaption id="image-caption">This is what we care about</figcaption>
+               <center> <img src="https://media.edutopia.org/styles/responsive_2880px_16x9/s3/masters/d7_images/cover_media/davis-169hero2-teachcode-twenty20.jpg"
+                    alt="Picture about care" id="image">
+                <figcaption id="image-caption">We care about students who work hard to succeed</figcaption></center>
             </figure>
             <div class="overview">
                 <p>
-                    <h>Short summary about our page</h>
-                <h3>More about the cause that we are passionate about</h3>
+                    <h6 id="intro">We are trying to get the most out of the youth by getting them into tech so they can succeed and build an amazing society for the next generation</h6>
+                <h id="more-info">Every generation there is a subject or a field of study which is in more favor than the rest. This field of study shapes that generation the coming generations after it.
+                    And it is very important to bring up students who are very capable in this field. For his generation the most in favor field of study is computer science or programming. So we have to 
+                    put in a lot of effort in teaching this generation computer science so they can lead the next generations to come and secure a great future for humanity. So I ask you all to generously <a href="donatePage.html">donate</a> 
+                    to help this generation and the generations after
+                </h>
                 </p>
 
             </div>
